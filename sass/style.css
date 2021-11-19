@@ -10864,4 +10864,11 @@ i {
   font-family: Lato;
   font-size: 1em;
 }
+
+/* Media rules */
+@media (max-width: 767.98px) {
+  .form-inline {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
