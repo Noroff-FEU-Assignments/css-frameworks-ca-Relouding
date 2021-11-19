@@ -8,6 +8,10 @@ footer {
     margin-top: 20px;
 }
 
+form {
+    background-color: $mid-gray;
+}
+
 h1 {
     color: $pink;
     font-family: $play-font;
@@ -16,13 +20,13 @@ h1 {
 
 h5 {
     color: $black;
-    font-family: $leto-font;
+    font-family: $lato-font;
     font-size: 1.5em;
 }
 
 p {
     color: $black;
-    font-family: $leto-font;
+    font-family: $lato-font;
     font-size: 1em;
 }
 
@@ -40,7 +44,7 @@ i {
 
 .nav-link {
     color: $black !important;
-    font-family: $leto-font;
+    font-family: $lato-font;
 }
 
 .active {
@@ -49,7 +53,7 @@ i {
 
 .btn {
     color: $white;
-    font-family: $leto-font;
+    font-family: $lato-font;
     font-size: 1em;
     background-color: $pink;
     border: none;
@@ -61,8 +65,39 @@ i {
 
 .card {
     color: $black;
-    font-family: $leto-font;
+    font-family: $lato-font;
     font-size: 1em;
+}
+
+.btn-collapse {
+    color: $pink;
+    font-family: $lato-font;
+    font-size: 0.7em;
+    background-color: $white;
+}
+
+.btn-collapse:hover {
+    color: $white;
+}
+
+.btn-active {
+    color: $white;
+    background-color: $pink;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $pink;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-inactive {
+    color: $pink;
+    background-color: $white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $pink;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Media rules */
@@ -70,4 +105,22 @@ i {
     .form-inline {
         display: none;
     }
+    .row-700 {
+        display: block;
+    }
+    .col-700 {
+        padding-top: 40px;
+    }
+    .col-4 {
+        max-width: 100%;
+    }
+    .col-8 {
+        max-width: 100%;
+    }
+}
+
+/* Font */
+@font-face {
+    font-family: lato;
+    src: url("../fonts/Lato-Regular.ttf")
 }
